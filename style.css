@@ -1,7 +1,7 @@
 .pop-up_text-gradient {
   width: 219px;
   height: 29px;
-  font-family: "Montserrat-SemiBold";
+  font-family: "Montserrat-SemiBold", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -24,7 +24,7 @@
 .pop-up_text {
   width: 193px;
   height: 57px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -54,7 +54,7 @@
   cursor: pointer;
   outline: none;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
