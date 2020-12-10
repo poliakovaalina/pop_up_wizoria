@@ -1,0 +1,97 @@
+.pop-up_text-gradient {
+  width: 219px;
+  height: 29px;
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: linear-gradient(
+    106.27deg,
+    #ff9422 0.26%,
+    #f9a5b5 34.2%,
+    #d47fef 102.4%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  text-align: center;
+}
+.pop-up_text {
+  width: 193px;
+  height: 57px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #1b1c20;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.pop-up_wrapper {
+  position: relative;
+  width: 310px;
+  height: 279px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  display: block;
+}
+.pop-up_wrapper_close {
+  display: none;
+}
+.pop-up_btn {
+  width: 209px;
+  height: 40px;
+  background: #8c64c9;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.pop-up_btn_wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pop-up_img {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat-SemiBold"), local("Montserrat-SemiBold"),
+    url(../fonts/Montserrat-SemiBold.woff2) format("woff2"),
+    url(../fonts/Montserrat-SemiBold.woff) format("woff");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Montserrat Medium"), local("Montserrat-Medium"),
+    url("../fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff")
+      format("woff");
+}
