@@ -89,9 +89,9 @@
   font-style: normal;
   font-weight: 500;
   src: local("Montserrat Medium"), local("Montserrat-Medium"),
-    url("../fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff2")
+    url("/fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff2")
       format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff")
+      url("/fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.woff")
       format("woff");
 }
